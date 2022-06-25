@@ -1,1 +1,120 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T17:42:44.854Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="17.1.2" etag="-BOGz3dlt87nFKoclyVt" type="github"><diagram id="g6jsP2fANJ_VSkBxAyUR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-25T02:18:30.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="wiBJLgW4JmA9TYj73xqu" version="17.1.2" type="github">
+  <diagram id="g6jsP2fANJ_VSkBxAyUR" name="Page-1">
+    <mxGraphModel dx="1038" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-1" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="160" height="108" as="geometry" />
+        </mxCell>
+        <object label="id&#xa;name&#xa;document&#xa;email&#xa;password" id="Hm8uNRe0Ofmoa-1wEduN-2">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-1">
+            <mxGeometry y="26" width="160" height="74" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-1">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-5" value="Route" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="160" height="108" as="geometry" />
+        </mxCell>
+        <object label="id&#xa;start [latitud, longitud]&#xa;end [latitud, longitud]" id="Hm8uNRe0Ofmoa-1wEduN-6">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-5">
+            <mxGeometry y="26" width="160" height="74" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-5">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-8" value="Driver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="386" y="20" width="160" height="108" as="geometry" />
+        </mxCell>
+        <object label="id&#xa;name&#xa;document&#xa;email&#xa;password" id="Hm8uNRe0Ofmoa-1wEduN-9">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-8">
+            <mxGeometry y="26" width="160" height="74" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-8">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-11" value="Uber x" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="143" width="160" height="128" as="geometry" />
+        </mxCell>
+        <object label="id &#xa;license&#xa;driver&#xa;passengers&#xa;bland&#xa;model" id="Hm8uNRe0Ofmoa-1wEduN-12">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-11">
+            <mxGeometry y="26" width="160" height="94" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-11">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-14" value="Uber x" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="143" width="160" height="128" as="geometry" />
+        </mxCell>
+        <object label="id &#xa;license&#xa;driver&#xa;passengers&#xa;bland&#xa;model" id="Hm8uNRe0Ofmoa-1wEduN-15">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-14">
+            <mxGeometry y="26" width="160" height="94" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-14">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-17" value="Uber black" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="386" y="143" width="160" height="128" as="geometry" />
+        </mxCell>
+        <object label="id &#xa;license&#xa;driver&#xa;passengers&#xa;typeCarAccepted []&#xa;seatsMaterial []" id="Hm8uNRe0Ofmoa-1wEduN-18">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-17">
+            <mxGeometry y="26" width="160" height="94" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-17">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-20" value="Uber van" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="561" y="143" width="160" height="128" as="geometry" />
+        </mxCell>
+        <object label="id &#xa;license&#xa;driver&#xa;passengers&#xa;typeCarAccepted []&#xa;seatsMaterial []" id="Hm8uNRe0Ofmoa-1wEduN-21">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-20">
+            <mxGeometry y="26" width="160" height="94" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-20">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-23" value="Card" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="300" width="160" height="108" as="geometry" />
+        </mxCell>
+        <object label="id&#xa;number&#xa;cvv&#xa;date" id="Hm8uNRe0Ofmoa-1wEduN-24">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-23">
+            <mxGeometry y="26" width="160" height="74" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-23">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-27" value="Paypal" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="206" y="300" width="160" height="108" as="geometry" />
+        </mxCell>
+        <object label="id&#xa;email" id="Hm8uNRe0Ofmoa-1wEduN-28">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-27">
+            <mxGeometry y="26" width="160" height="74" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-27">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-30" value="Cash" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="386" y="300" width="160" height="108" as="geometry" />
+        </mxCell>
+        <object label="id" id="Hm8uNRe0Ofmoa-1wEduN-31">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-30">
+            <mxGeometry y="26" width="160" height="74" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Hm8uNRe0Ofmoa-1wEduN-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Hm8uNRe0Ofmoa-1wEduN-30">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
