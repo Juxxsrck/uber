@@ -1,3 +1,8 @@
 {
-	"python.autoComplete.extraPaths": ["./Pyton"],
+	"python.autoComplete.extraPaths": [
+		"./Pyton"
+	],
+	"python.analysis.extraPaths": [
+		"./Pyton"
+	],
 }
