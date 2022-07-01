@@ -1,13 +1,9 @@
-import imp
 from car import Car
+from account import Account
+
 if __name__ == "__main__":
     print('Hola Mundo')
-    car = Car()
-    car.license = "GAP567"
-    car.driver = "German Pulido"
+    
+    car = Car("JSP123", Account("Stiven Pulido", "1014098765"))
     print(vars(car))
-
-    car2 = Car()
-    car2.license = 'MBM098'
-    car2.driver = 'Melany Barreto'
-    print(vars(car2))
+    print(vars(car.driver))
